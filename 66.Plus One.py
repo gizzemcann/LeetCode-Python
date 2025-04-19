@@ -14,3 +14,5 @@ def plusOne_algo(digits):
 
     # Hepsi 9'duysa başa 1 ekle
     return [1] + [0] * n
+print(plusOne_algo([1, 2, 3]))   # Çıktı: [1, 2, 4]
+print(plusOne_algo([9, 9, 9]))   # Çıktı: [1, 0, 0, 0]
